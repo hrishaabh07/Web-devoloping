@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nature Landscapes</title>
+  <link rel="stylesheet" href="Images.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: url('Images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    main {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    figure {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+      color: #333;
+    }
+
+    figure:hover {
+      transform: scale(1.02);
+    }
+
+    .image-container {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    figcaption {
+      padding: 1rem;
+      font-size: 0.95rem;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nature Landscapes</h1>
+
+    <section class="image-gallery" aria-label="Photo gallery of nature landscapes">
+      <!-- Original Images -->
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/erik-van-dijk-7aEhliQraPI-unsplash.jpg" 
+            alt="Dense green forest with sunlight peeking through" 
+            title="Forest by Dan Otis" 
+            loading="lazy"
+          />
+        </div>
+        <figcaption>
+          Photo by <strong>Dan Otis</strong> on Unsplash – Free to use under the Unsplash License.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/dominic-mercadante-P1flJH6EIT4-unsplash.jpg" 
+            alt="Snow-capped mountain under a blue sky" 
+            title="Mountain by Eberhard Grossgasteiger" 
+            loading="lazy"
+          />
+        </div>
+        <figcaption>
+          Photo by <strong>Eberhard Grossgasteiger</strong> on Unsplash – Free to use under the Unsplash License.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/genet-schneider-OZPbSbZFKa0-unsplash.jpg" 
+            alt="Serene lake reflecting autumn trees" 
+            title="Lake by Patrick Fore" 
+            loading="lazy"
+          />
+        </div>
+        <figcaption>
+          Photo by <strong>Patrick Fore</strong> on Unsplash – Free to use under the Unsplash License.
+        </figcaption>
+      </figure>
+
+      <!-- Filtered Duplicates -->
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/erik-van-dijk-7aEhliQraPI-unsplash.jpg" 
+            alt="Filtered forest image" 
+            title="Forest – Grayscale Filter" 
+            loading="lazy"
+            style="filter: grayscale(100%);"
+          />
+        </div>
+        <figcaption>
+          <strong>Filtered:</strong> Grayscale version of Dan Otis's forest photo.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/dominic-mercadante-P1flJH6EIT4-unsplash.jpg" 
+            alt="Filtered mountain image" 
+            title="Mountain – Sepia Filter" 
+            loading="lazy"
+            style="filter: sepia(90%);"
+          />
+        </div>
+        <figcaption>
+          <strong>Filtered:</strong> Sepia version of Eberhard Grossgasteiger's mountain photo.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <div class="image-container">
+          <img 
+            src="Images/genet-schneider-OZPbSbZFKa0-unsplash.jpg" 
+            alt="Filtered lake image" 
+            title="Lake – High Contrast Filter" 
+            loading="lazy"
+            style="filter: contrast(130%) saturate(120%);"
+          />
+        </div>
+        <figcaption>
+          <strong>Filtered:</strong> Enhanced contrast version of Patrick Fore's lake photo.
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>

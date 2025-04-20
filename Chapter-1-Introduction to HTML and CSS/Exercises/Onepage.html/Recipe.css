@@ -1,0 +1,90 @@
+/* Set base styling for body */
+body {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1473093226795-af9932fe5856') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f5f5f5;
+}
+
+/* Header styling */
+header {
+    background-color: #8B0000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-family: 'Bebas Neue', Impact, sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+/* Section headings */
+h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #ffcc00;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 1px 1px #000;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}
+
+/* Image styling */
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    margin: 30px;
+}
+
+/* Float image right */
+div {
+    float: right;
+    width: 500px;
+}
+
+/* List styling */
+ul, ol {
+    font-size: 18px;
+    padding: 0 40px;
+    line-height: 1.6;
+}
+
+/* Table and list colors */
+ul li, ol li, td {
+    color: #f0e68c;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+/* Table tweaks */
+table {
+    margin: auto;
+    padding-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #8B0000;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    border-top: 4px solid #ffcc00;
+    text-shadow: 1px 1px #000;
+}

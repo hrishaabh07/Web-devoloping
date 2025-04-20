@@ -1,0 +1,107 @@
+/* Base Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9fafc;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    background-color: #2f80ed;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Section Headings */
+  main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2f80ed;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Article Blocks */
+  article {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  article:hover {
+    transform: translateY(-4px);
+  }
+  
+  article h3 {
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+  }
+  
+  article p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Code Blocks */
+  pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    overflow-x: auto;
+    border-left: 4px solid #2f80ed;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+  
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #d6336c;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 1rem;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    article {
+      padding: 1rem;
+    }
+  }
+  

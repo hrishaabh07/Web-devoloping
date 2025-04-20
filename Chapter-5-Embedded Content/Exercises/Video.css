@@ -1,0 +1,22 @@
+/* Set full viewport height and width */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Center the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the video is responsive and fits the screen */
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
